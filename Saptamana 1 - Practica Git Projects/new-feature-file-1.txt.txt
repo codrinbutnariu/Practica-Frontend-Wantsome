@@ -1,0 +1,5 @@
+Git este un sistem revision control care ruleaza pe majoritatea platformelor, inclusiv Linux, POSIX, Windows ?i OS X. Ca ?i Mercurial, Git este un sistem distribuit ?i nu între?ine o baza de date comuna. Este folosit în echipe de dezvoltare mari, în care membrii echipei ac?ioneaza oarecum independent ?i sunt raspândi?i pe o arie geografica mare.
+
+Git este dezvoltat ?i între?inut de Junio Hamano, fiind publicat sub licen?a GPL ?i este considerat software liber.
+
+Dintre proiectele majore care folosesc Git amintim Amarok[3][4], Android[5], Arch Linux, Btrfs[6], Debian[7], DragonFly BSD[8], Eclipse[9], Fedora, FFmpeg [10], GIMP[11], GNOME[12][13], GTK+[14], Hurd[15], Linux kernel, Linux Mint[16][17], openSUSE[18], Perl[19], phpBB[20], Qt[21], rsync[22], Ruby on Rails[23], Samba[24].
