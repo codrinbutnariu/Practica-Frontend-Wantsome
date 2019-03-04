@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		form input[type="checkbox"],
+		form input[type="radio"] {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<h1>Travel reservation form</h1>
+	<b>* denotes mandotory</b>
+	<form>
+		<label>Full name*:</label><br>
+		<input type="text" name="fullname" placeholder="FirstName LastName" required="required"><br>
+		<label>Email address*:</label><br>
+		<input type="Email" name="email address" placeholder="EMAIL_ADDRESS"><br>
+		<label>Select Tour Package*:</label><br>
+		<select>
+			<option>Goa</option>
+			<option>Goa 2</option>
+			<option>Goa 3</option>
+		</select><br>
+		<label>Arrival date*:</label><br>
+		<input type="date" name="" placeholder="m/d/y"><br>
+		<label>Number of persons*:</label><br>
+		<input type="text" name="" placeholder="UNKNOWN_TYPE"><br>
+		<label>What would you want to avail?*</label><br>
+		Boarding<input type="checkbox" name=""><br>
+		Fooding <input type="checkbox" name=""><br>
+		Sight seeing <input type="checkbox" name=""><br>
+		<label>Discount Coupon code:</label><br>
+		<input type="text" name="" placeholder="UNKNOWN_TYPE"><br>
+		<label>Terms and conditions*</label><br>
+		<input type="radio" name="conditions" value="agree" checked="checked"> I agree
+		<input type="radio" name="conditions" value="disagree" checked="checked"> I disagree<br>
+		<input type="submit" name="" value="Complete reservation">
+	</form>
+<br><br><br><br><br>
+	<form>
+		<input type="text" name="" placeholder="chocolate cheesecake recipes"> <input type="submit" name="" value="Search"><br>
+		Match:
+		<input type="radio" name="match" value="ani word"> Any word
+		<input type="radio" name="match" value="all words">All words
+		<input type="radio" name="match" value="Exact phrace">Exact phrase<br>
+		<input type="checkbox" name=""> Sound-alike matching<br>
+		Dated:
+		<input type="radio" name="dated" value="within">
+		<select>
+			<option>Within the last year</option>
+			<option>Within the last month</option>
+			<option>Within the last day</option>
+		</select><br>
+		<input type="radio" name="dated" value="fromto">
+		From: <select><option>September</option><option>octomber</option></select><select><option>8</option><option>9</option></select>,<select><option>2009</option><option>2010</option></select><br>
+		Within: <select><option>description</option><option>lorem ipsum</option></select><br>
+		Show: <select><option>10</option></select> results <select><option>with</option></select> summaries<br>
+		Sort by: <select><option>relevance</option></select>
+	</form>
+	<br>
+	<br>
+	<br>
+	<h1>My feedback form</h1>
+	<form>
+		<ul>
+			<li>
+				Name: <input type="text" name="">
+			</li>
+			<li>
+				Email: <input type="email" name="">
+			</li>
+			<li>
+				Password: <input type="Password" name="">
+			</li>
+			<li>
+				Please Check all the emotions that apply to you
+				<ul>
+					<li>Angry<input type="checkbox" name="emotions"></li>
+					<li>Sad<input type="checkbox" name="emotions"></li>
+					<li>Happy<input type="checkbox" name="emotions"></li>
+					<li>Ambievalent<input type="checkbox" name="emotions"></li>
+				</ul>
+			</li>
+			<li>
+				How satisfied were you with our service?
+				<ul>
+					<li>Very satisfied<input type="radio" name="satisfied"></li>
+					<li>Satisfied<input type="radio" name="satisfied"></li>
+					<li>Didn't care<input type="radio" name="satisfied"></li>
+					<li>Dissatisfied<input type="radio" name="satisfied"></li>
+					<li>Very dissatisfied<input type="radio" name="satisfied"></li>
+				</ul>
+			</li>
+			<li>
+				Further comments: 
+				<textarea></textarea>
+			</li>
+			<li>
+				Bio photo: <input type="text" name=""><input type="file" name="">
+			</li>
+			<li>
+				Location visited: <select><option>Select location</option></select>
+			</li>
+			<li>
+				<input type="submit" name="" value="submit">
+			</li>
+		</ul>
+	</form>
+</body>
+</html>
